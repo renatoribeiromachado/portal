@@ -1,0 +1,442 @@
+[10-Feb-2022 20:16:08 UTC] PHP Warning:  require(/home/acessoho/public_html/codeigniter4/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/acessoho/public_html/codeigniter4/index.php on line 23
+[10-Feb-2022 20:16:08 UTC] PHP Warning:  require(/home/acessoho/public_html/codeigniter4/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/acessoho/public_html/codeigniter4/index.php on line 23
+[10-Feb-2022 20:16:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/acessoho/public_html/codeigniter4/../app/Config/Paths.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/acessoho/public_html/codeigniter4/index.php on line 23
+[12-Feb-2022 15:45:41 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:47:39 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:47:58 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:49:01 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:49:10 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:51:12 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:51:29 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:52:42 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:53:24 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:53:58 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:54:00 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 15:54:32 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:07:14 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:07:36 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:07:38 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:11:43 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:11:48 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:12:27 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:12:31 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:13:22 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:13:59 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:14:00 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:15:04 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:15:07 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:15:44 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:15:46 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 16:15:57 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 3
+[12-Feb-2022 18:00:50 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare App\Controllers\Admin\Usuarios::index() in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php on line 32
+[21-Feb-2022 10:03:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:03:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:07:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:07:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:07:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:08:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:09:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:11:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:13:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:13:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:13:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:14:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:20:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:26:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:29:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:30:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:30:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:30:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:31:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:34:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:34:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:38:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:38:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:38:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:39:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[21-Feb-2022 10:39:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:43:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:43:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:46:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:46:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:47:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:49:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:49:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:49:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:49:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:50:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:54:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:54:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 11:58:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:02:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:05:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:05:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:09:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:10:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:21:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:21:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 12:21:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 15:42:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[22-Feb-2022 15:42:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:22:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:22:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:25:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:25:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:41:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:42:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:43:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:46:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:51:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:51:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:53:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:53:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[24-Feb-2022 20:53:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 11:32:10 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:32:51 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:33:12 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:37:00 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:37:32 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:37:47 America/Sao_Paulo] PHP Fatal error:  Cannot use CodeIgniter\BaseController as BaseController because the name is already in use in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 6
+[25-Feb-2022 11:40:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 11:41:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 11:44:53 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:45:18 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:48:59 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:49:18 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:50:18 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:52:23 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:53:25 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:53:26 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:53:28 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 7
+[25-Feb-2022 11:55:34 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:55:55 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 11:55:59 America/Sao_Paulo] PHP Fatal error:  Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 8
+[25-Feb-2022 12:00:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 12:02:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 15:21:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[25-Feb-2022 18:16:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare App\Models\ServiceModel::$table in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 9
+[27-Feb-2022 11:37:18 America/Sao_Paulo] PHP Fatal error:  Cannot use empty array elements in arrays in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 33
+[27-Feb-2022 11:51:05 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare App\Models\ServiceModel::$table in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 9
+[27-Feb-2022 13:58:10 America/Sao_Paulo] PHP Fatal error:  Access level to App\Models\ServiceModel::$db must be protected (as in class CodeIgniter\Model) or weaker in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 52
+[27-Feb-2022 14:00:38 America/Sao_Paulo] PHP Fatal error:  Access level to App\Models\ServiceModel::$db must be protected (as in class CodeIgniter\Model) or weaker in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 53
+[27-Feb-2022 18:26:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[27-Feb-2022 18:30:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[28-Feb-2022 18:06:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[28-Feb-2022 18:35:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[28-Feb-2022 22:21:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[01-Mar-2022 15:26:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[01-Mar-2022 15:27:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[01-Mar-2022 15:29:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[01-Mar-2022 15:30:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[01-Mar-2022 16:33:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed in [no active file]:0
+Stack trace:
+#0 [internal function]: session_write_close()
+#1 {main}
+  thrown in [no active file] on line 0
+[10-Mar-2022 14:19:01 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 89116336 bytes) in /home/acessoho/public_html/codeigniter4/system/ThirdParty/Escaper/Escaper.php on line 182
+[01-Jun-2022 11:50:43 America/Fortaleza] PHP Warning:  require(/home1/markp728/portal.markp.com.br/app/Config/../../system/bootstrap.php): failed to open stream: No such file or directory in /home1/markp728/portal.markp.com.br/index.php on line 29
+[01-Jun-2022 11:50:43 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '/home1/markp728/portal.markp.com.br/app/Config/../../system/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/markp728/portal.markp.com.br/index.php on line 29

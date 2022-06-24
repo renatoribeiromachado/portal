@@ -1,0 +1,445 @@
+CRITICAL - 2022-02-25 11:25:34 --> Undefined variable: crf_field
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 29, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(55): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->create()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:25:55 --> Undefined variable: csrf_field
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 29, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(55): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->create()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:32:10 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:32:51 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:33:12 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:35:59 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:36:45 --> Class 'App\Controllers\Admin\Controller' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:37:00 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:37:18 --> Class 'App\Controllers\Admin\Controller' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:37:32 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:37:47 --> Cannot use CodeIgniter\BaseController as BaseController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:44:53 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:45:18 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:48:59 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:49:18 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:50:18 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:50:36 --> Class 'App\Controllers\Admin\Controller' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 11:52:23 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:53:25 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:53:26 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:53:28 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:55:34 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:55:55 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 11:55:59 --> Access level to App\Controllers\Admin\Services::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 14:22:12 --> Undefined variable: csrf_field
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 29, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(54): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->create()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 14:45:48 --> Undefined variable: csrf_field
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 29, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(54): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->create()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 15:09:53 --> Array to string conversion
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/acessoho/...', 14, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(31): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 16:57:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 16:58:20 --> Call to undefined function App\Models\select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:20:30 --> Call to undefined function App\Models\select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:24:42 --> Call to undefined function App\Models\select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:24:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:26:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:27:37 --> Object of class App\Models\ServiceModel could not be converted to string
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/acessoho/...', 34, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 17:27:56 --> Object of class App\Models\ServiceModel could not be converted to string
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/acessoho/...', 34, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 17:28:06 --> Not unique table/alias: 'services'
+CRITICAL - 2022-02-25 17:28:06 --> Not unique table/alias: 'services'
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-25 17:28:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:31:21 --> Undefined variable: db
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 33, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 17:38:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:39:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:39:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:40:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:43:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 17:45:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-25 17:46:02 --> Table 'acessoho_acessohost.service' doesn't exist
+CRITICAL - 2022-02-25 17:46:02 --> Table 'acessoho_acessohost.service' doesn't exist
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(39): CodeIgniter\Model->__call('get', Array)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-25 17:53:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->getServiceUser()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 18:00:09 --> Call to a member function paginate() on null
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 18:01:00 --> Call to a member function paginate() on null
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 18:04:51 --> join(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'join(): Invalid...', '/home/acessoho/...', 36, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(36): join('users', 'services.user_i...')
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 18:05:54 --> Undefined variable: name
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 43, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(32): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 18:07:51 --> Undefined variable: name
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 43, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(32): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 18:12:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 18:12:57 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 46
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(46): CodeIgniter\Database\BaseBuilder->get('services')
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 18:13:16 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 46
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(46): CodeIgniter\Database\BaseBuilder->get('services')
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 18:13:45 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php on line 46
+#0 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(46): CodeIgniter\Database\BaseBuilder->get('services')
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 18:14:37 --> Undefined variable: name
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 43, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(32): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-25 18:15:28 --> Not unique table/alias: 'users'
+CRITICAL - 2022-02-25 18:15:28 --> Not unique table/alias: 'users'
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(30): App\Models\ServiceModel->mostrar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 18:16:02 --> Cannot redeclare App\Models\ServiceModel::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 18:16:39 --> Undefined variable: name
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 43, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(32): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 18:19:29 --> Undefined variable: name
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/services/services.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 43, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ser...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(32): view('admin/pages/ser...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 18:22:37 --> Multiple access type modifiers are not allowed
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Serv...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Serv...')
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(16): spl_autoload_call('App\\Models\\Serv...')
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Admin\Services->__construct()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-25 18:23:08 --> Multiple access type modifiers are not allowed
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Serv...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Serv...')
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(16): spl_autoload_call('App\\Models\\Serv...')
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Admin\Services->__construct()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

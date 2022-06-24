@@ -1,0 +1,61 @@
+CRITICAL - 2022-03-01 13:21:20 --> Undefined variable: msg
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/users/usuarios.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 14, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(29): view('admin/pages/use...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-01 15:08:14 --> Column 'user_id' cannot be null
+CRITICAL - 2022-03-01 15:08:14 --> Column 'user_id' cannot be null
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/acessoho/public_html/codeigniter4/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /home/acessoho/public_html/codeigniter4/app/Models/ServiceModel.php(21): CodeIgniter\BaseModel->save(Array)
+#9 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(96): App\Models\ServiceModel->saveData(Array)
+#10 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#11 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#12 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-01 17:40:37 --> Undefined variable: msg
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/users/usuarios.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 14, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(29): view('admin/pages/use...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 17:40:41 --> Undefined variable: msg
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/users/usuarios.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 14, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(29): view('admin/pages/use...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 17:40:45 --> Undefined variable: msg
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/users/usuarios.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 14, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(29): view('admin/pages/use...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

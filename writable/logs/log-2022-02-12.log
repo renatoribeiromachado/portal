@@ -1,0 +1,302 @@
+CRITICAL - 2022-02-12 15:45:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:47:39 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:47:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:49:01 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:49:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:51:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:51:29 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:52:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:53:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:53:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:54:00 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 15:54:32 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:07:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:07:36 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:07:38 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:11:43 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:11:48 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:12:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:12:31 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:13:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:13:59 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:14:00 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:15:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:15:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:15:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:15:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:15:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 16:28:50 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(22): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Login->__construct()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 16:32:56 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(23): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Login->__construct()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 16:53:50 --> Undefined variable: users
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/usuarios.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 12, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/usu...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(24): view('admin/pages/usu...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 17:25:28 --> syntax error, unexpected '}'
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/usuarios')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/usuarios')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 17:25:57 --> Call to a member function links() on null
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/usu...', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(27): view('admin/pages/usu...', Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 17:27:29 --> Call to a member function links() on null
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/usu...', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(27): view('admin/pages/usu...', Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 17:27:33 --> Call to a member function links() on null
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/usu...', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(27): view('admin/pages/usu...', Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 17:27:37 --> Call to a member function links() on null
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/usu...', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(27): view('admin/pages/usu...', Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 17:34:31 --> Invalid file: admin/pages/users/usuarios.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/use...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(27): view('admin/pages/use...', Array)
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 18:00:50 --> Cannot redeclare App\Controllers\Admin\Usuarios::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 18:29:08 --> Invalid file: admin/pages/user/usuarios.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/use...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(49): view('admin/pages/use...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 18:29:45 --> Invalid file: admin/pages/user/usuarios.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/use...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/use...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(49): view('admin/pages/use...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 18:40:12 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/acessoho/...', 84, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Helpers/url_helper.php(84): implode('/', Array)
+#2 /home/acessoho/public_html/codeigniter4/system/Helpers/url_helper.php(106): site_url(Array, NULL, Object(Config\App))
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(49): base_url(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 18:42:05 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php on line 49
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(49): base_url('admin/usuarios', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 18:50:22 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php on line 49
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(49): CodeIgniter\HTTP\RedirectResponse->to('https://acessoh...', 'messages', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 19:00:15 --> Too few arguments to function App\Models\UserModel::getUser(), 1 passed in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 35 and exactly 2 expected
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(35): App\Models\UserModel->getUser(Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 19:01:36 --> Too few arguments to function App\Models\UserModel::getUser(), 1 passed in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 35 and exactly 2 expected
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(35): App\Models\UserModel->getUser(Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-12 19:03:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+CRITICAL - 2022-02-12 19:03:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/acessoho/public_html/codeigniter4/app/Models/UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(35): App\Models\UserModel->getUser(Array)
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-02-12 19:03:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+CRITICAL - 2022-02-12 19:03:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/acessoho/public_html/codeigniter4/app/Models/UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(35): App\Models\UserModel->getUser(Array)
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-12 19:11:18 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', '/home/acessoho/...', 51, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(51): password_hash(false)
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-12 19:11:57 --> Column 'password' cannot be null
+CRITICAL - 2022-02-12 19:11:57 --> Column 'password' cannot be null
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/acessoho/public_html/codeigniter4/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(54): CodeIgniter\BaseModel->save(Array)
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#10 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#11 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-12 19:13:52 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', '/home/acessoho/...', 51, Array)
+#1 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Usuarios.php(51): password_hash('123456')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Usuarios->store()
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 20:52:44 --> Undefined variable: password
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 28, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

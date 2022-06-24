@@ -1,0 +1,137 @@
+CRITICAL - 2022-02-24 18:29:38 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 132
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(132): base_url('admin/create', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('13')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 18:30:49 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 132
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(132): base_url('admin/create', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('13')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 18:35:17 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php on line 134
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(134): base_url('admin/create', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('13')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 18:36:33 --> syntax error, unexpected '}', expecting ';'
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/services/...')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/services/...')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 18:36:54 --> Invalid file: admin/create.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.ph...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/create', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(135): view('admin/create', Array)
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('13')
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-24 19:19:50 --> syntax error, unexpected '$val' (T_VARIABLE)
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/services/...')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/services/...')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 19:26:07 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 19:26:26 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 19:27:09 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 19:27:20 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 19:28:50 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 19:29:02 --> There is no data to update.
+#0 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/acessoho/public_html/codeigniter4/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(89): CodeIgniter\Model->update(Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 20:13:16 --> Call to undefined method App\Controllers\Admin\Services::getServices()
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('10')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-24 20:13:42 --> Call to undefined method App\Controllers\Admin\Services::getServices()
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->edit('10')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-24 20:27:22 --> Undefined variable: session
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 86, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:28:41 --> Undefined variable: session
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 87, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:29:27 --> Undefined variable: session
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Services.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 24, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Services->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

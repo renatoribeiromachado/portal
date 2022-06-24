@@ -1,0 +1,563 @@
+CRITICAL - 2022-02-11 07:16:39 --> Invalid file: home.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(10): view('home')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 07:48:21 --> Call to undefined function logotipo()
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(10): view('templates/menu')
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-11 08:05:54 --> Argument 2 passed to view() must be of the type array, string given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php on line 15
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(15): view('pages/home', 'Home')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 08:06:42 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php on line 15
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(15): view('pages/home', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 08:06:48 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php on line 15
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(15): view('pages/home', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 08:12:24 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php on line 13
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(13): view('templates/heade...', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 08:13:09 --> Argument 2 passed to view() must be of the type array, string given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php on line 13
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(13): view('templates/heade...', 'Auto Wash car')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:40:44 --> Invalid file: pages/index.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin.php(15): view('pages/index')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:21:26 --> Invalid file: admin/pages/home.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/hom...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/hom...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin.php(15): view('admin/pages/hom...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:22:30 --> Invalid file: admin/pages/home.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/hom...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/hom...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin.php(15): view('admin/pages/hom...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 11:26:44 --> Invalid file: admin/pages/home.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/hom...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/hom...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin.php(15): view('admin/pages/hom...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 13:19:32 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Admin/admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:19:45 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Admin/admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:20:55 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:21:42 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:21:44 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:22:46 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:22:48 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:23:53 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:24:09 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:24:10 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(518): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 14:57:53 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 14:58:18 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 14:58:38 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 14:59:50 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:07:11 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:07:17 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:07:31 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:08:55 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(28): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:09:58 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(23): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:10:08 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(23): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:10:27 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:15:51 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:16:05 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:39:28 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:42:11 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:42:21 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:45:13 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:45:18 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:49:22 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:51:13 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:51:46 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->entrar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:52:24 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 34
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(34): view('admin/pages/log...', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 15:55:06 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 34
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(34): view('admin/pages/log...', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 15:55:18 --> Argument 2 passed to view() must be of the type array, null given, called in /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php on line 34
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(34): view('admin/pages/log...', NULL)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 15:58:11 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:58:35 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:59:00 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 15:59:07 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:16:14 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:17:28 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:18:21 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:18:42 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:19:27 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:20:28 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:20:34 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 16:33:25 --> Invalid file: admin/pages/admin.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/adm...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/adm...', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(36): view('admin/pages/adm...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 16:42:44 --> Class 'App\Models\Model' not found
+#0 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Login.php(21): spl_autoload_call('App\\Models\\User...')
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Login->logar()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

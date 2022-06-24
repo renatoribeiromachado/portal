@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-18 17:42:34 --> Invalid file: pages/contact.php
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/contact.p...')
+#1 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('pages/contact', Array, true)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(81): view('pages/contact')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->contact()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

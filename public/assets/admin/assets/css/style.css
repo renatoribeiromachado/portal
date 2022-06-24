@@ -1,0 +1,34 @@
+.parallax {
+    /* The image used */
+    background-image: url("../parallax/login.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #5b99a9;
+    border-color: #5b99a9;
+}
+.btn-login:hover {
+    color: #666;
+    background-color: #ccc;
+    border-color: #5b99a9;
+}
+
+@media (max-width: 768px) {
+    .media-form-login {
+        margin-top: -80px !important;
+    }
+}
+
+.p-2-icon {
+  padding: 2.6px !important;
+}

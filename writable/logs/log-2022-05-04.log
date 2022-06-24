@@ -1,0 +1,145 @@
+CRITICAL - 2022-05-04 09:15:12 --> Undefined variable: submenu
+#0 /home/acessoho/public_html/codeigniter4/app/Views/templates/menu.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 75, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(22): view('templates/menu', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 09:27:12 --> Class 'App\Models\MenuPrincipalModel' not found
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 09:27:39 --> Class 'App\Models\MenuPrincipalModel' not found
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-04 09:28:02 --> Unknown column 'menu_principal.deletedAt' in 'where clause'
+CRITICAL - 2022-05-04 09:28:02 --> Unknown column 'menu_principal.deletedAt' in 'where clause'
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-04 09:29:08 --> Undefined index: url
+#0 /home/acessoho/public_html/codeigniter4/app/Views/templates/menu.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/acessoho/...', 71, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): view('templates/menu', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 09:31:02 --> Undefined variable: submenus
+#0 /home/acessoho/public_html/codeigniter4/app/Views/templates/menu.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 79, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(25): view('templates/menu', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 10:42:13 --> Undefined variable: submenus
+#0 /home/acessoho/public_html/codeigniter4/app/Views/templates/menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 84, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(25): view('templates/menu', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 10:42:42 --> Invalid argument supplied for foreach()
+#0 /home/acessoho/public_html/codeigniter4/app/Views/templates/menu.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/acessoho/...', 86, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('templates/menu', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(25): view('templates/menu', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-04 10:58:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+CRITICAL - 2022-05-04 10:58:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-04 10:58:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+CRITICAL - 2022-05-04 10:58:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-04 11:03:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+CRITICAL - 2022-05-04 11:03:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-04 11:03:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+CRITICAL - 2022-05-04 11:03:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null
+AND `menu_principal`.`deleted_at` IS NULL' at line 3
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,90 @@
+CRITICAL - 2022-03-13 16:16:07 --> preg_match() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/home/acessoho/...', 466, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Email/Email.php(466): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), NULL)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(107): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Vanessa Vanjura')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->send()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 16:18:13 --> preg_match() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/home/acessoho/...', 466, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Email/Email.php(466): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), NULL)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(109): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), '"Vanessa Vanjur...')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->send()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 16:18:50 --> preg_match() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/home/acessoho/...', 466, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Email/Email.php(466): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), NULL)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(109): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'teste')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->send()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 16:20:25 --> preg_match() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/home/acessoho/...', 466, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Email/Email.php(466): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), NULL)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(107): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Your Name')
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->send()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 16:22:39 --> preg_match() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/home/acessoho/...', 466, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/Email/Email.php(466): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), NULL)
+#2 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(107): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->send()
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 16:37:45 --> Undefined variable: html
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 115, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 16:41:21 --> Creating default object from empty value
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/acessoho/...', 117, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 17:53:57 --> Undefined variable: request
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 100, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 17:59:46 --> Call to undefined function App\Controllers\contact()
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-13 18:00:09 --> Call to undefined function App\Controllers\contact()
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-13 18:05:22 --> Undefined variable: msg
+#0 /home/acessoho/public_html/codeigniter4/app/Views/pages/contact.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 45, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('pages/contact', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(95): view('pages/contact')
+#5 /home/acessoho/public_html/codeigniter4/app/Controllers/Home.php(125): App\Controllers\Home->contact()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->sendEmail()
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,147 @@
+ERROR - 2022-03-07 08:28:45 --> Table 'acessoho_acessohost.vitrines' doesn't exist
+CRITICAL - 2022-03-07 08:28:45 --> Table 'acessoho_acessohost.vitrines' doesn't exist
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(28): CodeIgniter\BaseModel->paginate(50)
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->index()
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-07 08:29:15 --> Undefined variable: cl_foto
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/banners/banners.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 40, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ban...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(30): view('admin/pages/ban...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 10:19:20 --> Undefined variable: imgMobiler
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 45, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 10:24:50 --> Undefined property: App\Controllers\Admin\Banners::$clientModel
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/acessoho/...', 120, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->delete('42')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 10:48:25 --> Undefined variable: vi_alvovi_link
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/banners/banners.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 58, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/ban...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(30): view('admin/pages/ban...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 10:55:52 --> Undefined property: App\Controllers\Admin\Banners::$clientModel
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/acessoho/...', 60, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:32:07 --> Undefined variable: strategys
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/estrategia/estrategia.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 25, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/est...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Estrategia.php(37): view('admin/pages/est...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Estrategia->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Estrategia))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 11:32:46 --> Undefined variable: cl_codigo
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/estrategia/estrategia.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 46, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/est...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Estrategia.php(37): view('admin/pages/est...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Estrategia->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Estrategia))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 11:35:08 --> Call to undefined function strotime()
+#0 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include()
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/est...', Array, true)
+#3 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Estrategia.php(37): view('admin/pages/est...', Array)
+#4 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Estrategia->index()
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Estrategia))
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-07 12:10:26 --> Call to undefined method App\Models\EstrategiaModel::getDelete
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Estrategia.php(68): CodeIgniter\Model->__call('getDelete', Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Estrategia->delete('8')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Estrategia))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 15:35:05 --> Class 'App\Models\ContatoModel' not found
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Admin\Contato->__construct()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 15:36:54 --> Class 'App\Models\ContatoModel' not found
+#0 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(802): App\Controllers\Admin\Contato->__construct()
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 15:46:47 --> Unknown column 'cl_codigo' in 'where clause'
+CRITICAL - 2022-03-07 15:46:47 --> Unknown column 'cl_codigo' in 'where clause'
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Contato.php(41): CodeIgniter\BaseModel->delete(Array)
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Contato->delete('4')
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contato))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-07 15:48:44 --> Unknown column 'cl_codigo' in 'where clause'
+CRITICAL - 2022-03-07 15:48:44 --> Unknown column 'cl_codigo' in 'where clause'
+#0 /home/acessoho/public_html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 /home/acessoho/public_html/codeigniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 /home/acessoho/public_html/codeigniter4/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 /home/acessoho/public_html/codeigniter4/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/acessoho/public_html/codeigniter4/system/BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Contato.php(41): CodeIgniter\BaseModel->delete(Array)
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Contato->delete('4')
+#8 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contato))
+#9 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-07 16:38:29 --> Undefined variable: id
+#0 /home/acessoho/public_html/codeigniter4/app/Views/admin/pages/contato/contato.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 55, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/View/View.php(210): include('/home/acessoho/...')
+#2 /home/acessoho/public_html/codeigniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/acessoho/public_html/codeigniter4/system/Common.php(1089): CodeIgniter\View\View->render('admin/pages/con...', Array, true)
+#4 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Contato.php(33): view('admin/pages/con...', Array)
+#5 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Contato->index()
+#6 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contato))
+#7 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

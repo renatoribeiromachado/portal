@@ -1,0 +1,21 @@
+CRITICAL - 2022-03-12 17:39:24 --> Undefined variable: newNameMobile
+#0 /home/acessoho/public_html/codeigniter4/app/Controllers/Admin/Banners.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/acessoho/...', 93, Array)
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Admin\Banners->store()
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banners))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-12 17:55:22 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/banners/s...')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/banners/s...')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-12 17:56:02 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 /home/acessoho/public_html/codeigniter4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/banners/s...')
+#1 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/banners/s...')
+#2 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/acessoho/public_html/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/acessoho/public_html/codeigniter4/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
